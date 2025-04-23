@@ -61,7 +61,8 @@ public class Tournament {
             System.out.println(s.getName() + ": " + s.getPoints() + " pontos!");
         }
         System.out.println("\nCampeã: " + startups.get(0).getName());
-        System.out.println("\nSlogan: " + startups.get(0).getSlogan());
+        System.out.println("Slogan: " + startups.get(0).getSlogan());
+           
     }
     public List<Battle> getOnBattle() {
         return onBattle;
