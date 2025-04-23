@@ -11,7 +11,7 @@ Relatorio Final com a Startup vencedora e seu slogan;
 
 Classes Principais:
 
-Tournament
+Tournament:
 Gerencia o Torneio, com o cadastro das Startups e a organização das Batalhas;
 Métodos Principais:
 begginTournament() //inicia o torneio;
@@ -19,24 +19,24 @@ drawBattles()//Sorteia as batalhas entre Startups;
 nextRound() //Avança para a proxima rodada;
 showReport() //Exibe um relatório final sobre a Startup campeã;
 
-Startup
+Startup:
 Representa uma startup participante do torneio;
 Recebe atributos private: name, slogan e yearFoundation;
 Métodos Principais:
 receivedEvents(Event event) //Aplica um evento á uma Startup;
 resetEventsRound() //Reseta os eventos para proxima rodada;
 
-Batlle
+Batlle:
 Gerencia uma batalha entre duas Startups;
 Métodos Principais:
 adminBattle(Scanner scanner) //Adiministra a batalha;
 getWinner() //Determina o vencedor até mesmo em caso de empate;
 
-Event
+Event:
 Enumeração dos eventos que podem acontecer em uma batalha;
 Cada evento recebe uma descrição e um modificador de pontos;
 
-Main
+Main:
 Classe Principal que inicia o programa e interage com o usuario que controla as ações;
 
 Requisitos:
